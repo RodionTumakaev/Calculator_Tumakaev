@@ -1,3 +1,4 @@
+import math
 a = int(input('Введите первое число: '))
 b = int(input('Введите второе число: '))
 print('Результат сложения: ', a+b)
@@ -8,3 +9,7 @@ print('Результат деления a/b: ', a/b)
 print('Результат деления b/a: ', b/a)
 print('Возведение в степень a^b: ', a**b)
 print('Возведение в степень b^aC: ', b**a)
+print('Синус a: ', math.sin(a))
+print('Косинус a: ', math.cos(a))
+print('Синус b: ', math.sin(b))
+print('Косинус b: ', math.cos(b))
